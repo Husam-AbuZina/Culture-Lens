@@ -1,0 +1,55 @@
+.bahia-palace {
+    max-width: 1024px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bahia-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bahia-content {
+    padding: 20px;
+  }
+  
+  .bahia-content h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  .bahia-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  
+  .editor-tips {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid orange;
+    margin-bottom: 16px;
+  }
+  
+  .editor-tips a {
+    color: #ff6347;
+    text-decoration: none;
+  }
+  
+  .editor-tips a:hover {
+    text-decoration: underline;
+  }
+  
+  .bahia-content a {
+    color: #ff4500;
+    text-decoration: none;
+  }
+  
+  .bahia-content a:hover {
+    text-decoration: underline;
+  }
+  
