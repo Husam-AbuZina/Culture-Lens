@@ -1,11 +1,11 @@
 import React from 'react';
-import './Card.css'; // External CSS for styling
+import './Card.css';
 
 const Card = () => {
   return (
     <div className="bahia-palace">
       <img
-        src="https://via.placeholder.com/1024x400" // Replace with actual image source
+        src="https://via.placeholder.com/1024x400"
         alt="Bahia Palace, Marrakech"
         className="bahia-image"
       />
