@@ -1,69 +1,78 @@
+/* File: src/components/MainLayout/MainLayout.css */
+
+/* Ensure the body is stretched to the full height of the viewport */
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
-  }
-  
-  .main-layout {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .main-header {
-    background-color: #343a40;
-    padding: 20px;
-    color: white;
-    text-align: center;
-  }
-  
-  .main-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .main-header nav ul li {
-    margin: 0 15px;
-  }
-  
-  .main-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  .main-header nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .main-content {
-    flex: 1;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-  }
-  
-  .main-footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .main-footer p {
-    margin: 0;
-  }
-  
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  background-color: #f4f4f4; /* Light background for the page */
+}
+
+/* Main layout container */
+.main-layout {
+  width: 100%;
+  max-width: 1200px;    /* Constrain width */
+  min-height: 90vh;     /* Minimum height for layout */
+  background-color: red;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;       /* Center horizontally by using margin auto */
+}
+
+/* Header styling */
+.main-header {
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.main-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-header nav ul li {
+  margin: 0 15px;
+}
+
+.main-header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main-header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  background-color: red;
+  border-radius: 8px;
+}
+
+/* Footer styling */
+.main-footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.main-footer p {
+  margin: 0;
+}
+
+
